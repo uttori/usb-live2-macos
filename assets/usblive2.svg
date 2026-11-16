@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">USB-Live2</title>
+  <desc id="desc">A VHS cassette with a wide protective lid, separate reel windows, and a USB-A plug.</desc>
+  <rect x="32" y="32" width="960" height="960" rx="216" fill="#176a73"/>
+
+  <!-- The plug's two retention holes read as USB-A at small sizes. -->
+  <g transform="rotate(38 755 400)">
+    <rect x="678" y="150" width="154" height="207" rx="16" fill="#e9eff1"/>
+    <path d="M700 203h36v40h-36zM774 203h36v40h-36z" fill="#334751"/>
+    <rect x="652" y="289" width="206" height="163" rx="25" fill="#263640"/>
+  </g>
+
+  <!-- A full-width hinged lid and a thick edge frame the two separate VHS reel windows. -->
+  <rect x="112" y="337" width="800" height="475" rx="34" fill="#162630"/>
+  <rect x="112" y="337" width="800" height="437" rx="34" fill="#334751"/>
+  <path d="M146 337h732a34 34 0 0 1 34 34v58H112v-58a34 34 0 0 1 34-34Z" fill="#162630"/>
+  <path d="M160 401h704" stroke="#5c7079" stroke-width="12" stroke-linecap="round"/>
+  <path d="M162 470h205l29 29v164l-29 29H162zM862 470H657l-29 29v164l29 29h205z" fill="#162630"/>
+  <circle cx="272" cy="581" r="80" fill="#af8660"/>
+  <circle cx="752" cy="581" r="80" fill="#af8660"/>
+  <g fill="#e9eff1">
+    <circle cx="272" cy="581" r="44"/>
+    <circle cx="752" cy="581" r="44"/>
+  </g>
+  <path d="M258 566h28v30h-28zM738 566h28v30h-28z" fill="#162630"/>
+  <rect x="416" y="485" width="192" height="192" rx="12" fill="#e9eff1"/>
+</svg>
