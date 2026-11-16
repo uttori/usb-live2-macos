@@ -1,0 +1,34 @@
+# Generated executables, app bundles, archives, and compiler output.
+/build/
+/dist/
+/usblive2-probe
+*.o
+*.dSYM/
+
+# Local research, optional QTGMC dependencies, and code indexes.
+/reference/
+/tmp/
+/.qtgmc/
+/.tokensave/
+/graphify-out/
+
+# Windows firmware copies are local references; ship only the licensed Linux image.
+/firmware/*.rom
+
+# Captures and exports can be large and are never source inputs.
+*.mkv
+*.mov
+*.mp4
+*.yuyv
+*.s16le
+
+# OS/editor caches and signing credentials.
+.DS_Store
+__pycache__/
+*.py[cod]
+*.swp
+*.mobileprovision
+*.provisionprofile
+*.p12
+.env
+.env.*
